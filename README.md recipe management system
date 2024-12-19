@@ -24,7 +24,7 @@ Copy code
 ├── recipe-detail.html     # Recipe detail page  
 ├── add-recipe.html        # Add/Edit recipe page  
 ├── assets/  
-│   ├── css/  
+│   ├── Css/  
 │   │   ├── bootstrap.min.css  # Bootstrap CSS  
 │   │   └── styles.css         # Custom styles  
 │   ├── js/  
@@ -67,21 +67,21 @@ MySQL: Database for storing users and recipes.
 RESTful API: Communication between frontend and backend.
 API Endpoints
 Method	Endpoint	Description
-GET	/api/recipes	Get all recipes
-GET	/api/recipes/{id}	Get a recipe by ID
-POST	/api/recipes	Add a new recipe
-DELETE	/api/recipes/{id}	Delete a recipe by ID
+GET	/Api/recipes	Get all recipes
+GET	/Api/recipes/{id}	Get a recipe by ID
+POST	/Api/recipes	Add a new recipe
+DELETE	/Api/recipes/{id}	Delete a recipe by ID
 How to Run
 Prerequisites
 Install Java (JDK 17 or later).
 Install Maven.
-Install Node.js (for local testing of frontend).
+Install Node.js (for local testing of Frontend).
 Install MySQL and create a database named recipe_db.
 Steps
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-username/recipe-management-system.git  
+git clone https://github.com//recipe-management-system.git  
 cd recipe-management-system  
 2. Run the Backend
 Navigate to the backend/ directory:
@@ -92,8 +92,8 @@ Configure the database in application.properties.
 Start the application using Maven:
 bash
 Copy code
-mvn spring-boot:run  
-Backend is available at http://localhost:8080.
+mnn spring-boot:Run  
+
 3. Run the Frontend
 Navigate to the frontend/ directory:
 bash
@@ -118,4 +118,5 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 License
 This project is licensed under the MIT License.
 
-Replace Recipe management website in the clone command with your GitHub username and add actual screenshots in the appropriate folder. Let me know if you need help with further customization!
+Replace Hans12-Cpu
+recipe-management-website in the clone command with your GitHub username and add actual screenshots in the appropriate folder. Let me know if you need help with further customization!
