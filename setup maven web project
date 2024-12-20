@@ -1,0 +1,17 @@
+my-web-project
+│
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── HelloServlet.java
+│   │   ├── resources
+│   │   └── webapp
+│   │       ├── WEB-INF
+│   │       │   └── web.xml
+│   │       └── index.jsp
+│   └── test
+│       └── java
+└── target
